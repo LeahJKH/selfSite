@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(59, 57, 57);
+    color: whitesmoke;
+}
+main{
+    height: 72.8vh;
+    overflow-y: scroll;
+}
+
+header {
+    background-color: blueviolet;
+    text-align: center;
+    height: 100px;
+}
+footer {
+    background-color: rgb(20, 20, 20);
+}
+
+#hTxt {
+    font-size: 85px;
+}
+#manImage {
+    width: 300px;
+    height: 400px;
+}
+
+.footerBox {
+    background-color: blueviolet;
+    width: 100px;
+    min-height: 50px;
+    margin: 5px;
+    text-align: center;
+}
