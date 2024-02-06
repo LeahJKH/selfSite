@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*Base Tags*/
 body {
     background-color: rgb(59, 57, 57);
     color: whitesmoke;
@@ -20,7 +22,9 @@ header {
 footer {
     background-color: rgb(20, 20, 20);
 }
+/*Base Tags*/
 
+/*ID's*/
 #hTxt {
     font-size: 85px;
 }
@@ -28,7 +32,9 @@ footer {
     width: 300px;
     height: 400px;
 }
+/*ID's*/
 
+/*CLASSES*/
 .footerBox {
     background-color: blueviolet;
     width: 100px;
@@ -36,3 +42,4 @@ footer {
     margin: 5px;
     text-align: center;
 }
+/*CLASSES*/
