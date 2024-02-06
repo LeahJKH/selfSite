@@ -8,19 +8,37 @@
 body {
     background-color: rgb(59, 57, 57);
     color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 main{
-    height: 72.8vh;
-    overflow-y: scroll;
+    height: 74.8vh;
+}
+h1{
+    margin: 0;
+}
+button {
+    width: 200px;
+    height: 100px;
+    font-size: 40px;
+    color: whitesmoke;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 30px;
 }
 
 header {
     background-color: blueviolet;
     text-align: center;
     height: 100px;
+    position: sticky;
+    top: 0;
 }
 footer {
     background-color: rgb(20, 20, 20);
+    position: sticky;
+    bottom: 0;
 }
 /*Base Tags*/
 
@@ -31,6 +49,7 @@ footer {
 #manImage {
     width: 300px;
     height: 400px;
+    border-radius: 10px;
 }
 /*ID's*/
 
