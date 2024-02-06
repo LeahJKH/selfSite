@@ -13,7 +13,7 @@ body {
     flex-direction: column;
 }
 main{
-    height: 74.8vh;
+    min-height: 78vh;
 }
 h1{
     margin: 0;
@@ -37,8 +37,6 @@ header {
 }
 footer {
     background-color: rgb(20, 20, 20);
-    position: sticky;
-    bottom: 0;
 }
 /*Base Tags*/
 
