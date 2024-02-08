@@ -12,11 +12,7 @@ body {
     justify-content: space-between;
     flex-direction: column;
 }
-main{
-    min-height: 78vh;
-    padding: 10px;
-    text-align: center;
-}
+
 h1{
     margin: 0;
 }
@@ -35,6 +31,19 @@ button:hover {
     background-color: rgb(167, 130, 202);
 }
 
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+/*Base Tags*/
+
+/*Psuedo Tag*/
 header {
     background-color: blueviolet;
     text-align: center;
@@ -42,11 +51,16 @@ header {
     position: sticky;
     top: 0;
 }
+main{
+    min-height: 78vh;
+    padding: 10px;
+    text-align: center;
+}
 footer {
     background-color: rgb(20, 20, 20);
     text-align: center;
 }
-/*Base Tags*/
+/*Psuedo Tag*/
 
 /*ID's*/
 #hTxt {
@@ -67,9 +81,32 @@ footer {
     color: blueviolet;
     text-decoration: none;
 }
-#github-Link:hover {
-    color: rgb(165, 112, 214);
+#pass-field {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
+#login-section {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(37, 36, 36);
+    padding: 20px;
+    margin: 15px auto;
+    box-shadow: rgb(37, 36, 36) -1px -1px 20px;
+}
+#top-button {
+    background-color: black;
+}
+    /*Hover Effect*/
+    #github-Link:hover {
+        color: rgb(165, 112, 214);
+    }
+    /*Hover Effect*/
 /*ID's*/
 
 /*CLASSES*/
