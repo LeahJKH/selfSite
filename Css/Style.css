@@ -14,18 +14,25 @@ body {
 }
 main{
     min-height: 78vh;
+    padding: 10px;
+    text-align: center;
 }
 h1{
     margin: 0;
 }
 button {
-    width: 200px;
-    height: 100px;
-    font-size: 40px;
+    width: fit-content;
+    padding: 10px 20px;
+    height: 75px;
+    font-size: 30px;
     color: whitesmoke;
     background-color: blueviolet;
     border: none;
     border-radius: 30px;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: rgb(167, 130, 202);
 }
 
 header {
@@ -37,6 +44,7 @@ header {
 }
 footer {
     background-color: rgb(20, 20, 20);
+    text-align: center;
 }
 /*Base Tags*/
 
@@ -49,6 +57,19 @@ footer {
     height: 400px;
     border-radius: 10px;
 }
+#manSection {
+    text-align: center;
+    width: 400px;
+    margin: 10px auto;
+}
+#github-Link {
+    font-size: 30px;
+    color: blueviolet;
+    text-decoration: none;
+}
+#github-Link:hover {
+    color: rgb(165, 112, 214);
+}
 /*ID's*/
 
 /*CLASSES*/
@@ -60,3 +81,14 @@ footer {
     text-align: center;
 }
 /*CLASSES*/
+
+/*MULTIUSE CLASSES*/
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+/*MULTIUSE CLASSES*/
