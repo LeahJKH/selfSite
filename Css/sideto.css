@@ -3,3 +3,73 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*Base Tags*/
+body {
+    background-color: rgb(59, 57, 57);
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+h1{
+    margin: 0;
+}
+/*Base Tags*/
+
+/*Psuedo Tag*/
+header {
+    background-color: blueviolet;
+    text-align: center;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+main{
+   min-height: 60vh;
+    padding: 10px;
+    text-align: center;
+}
+footer {
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+}
+/*Psuedo Tag*/
+
+/*ID's*/
+#mover {
+display: flex;
+flex-direction: row;
+height: 500px;
+justify-content:space-around;    
+align-items: center;
+gap: 10px;
+flex-wrap: wrap;
+}
+/*ID's*/
+
+/*CLASSES*/
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(60, 25, 89);
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+/*CLASSES*/
+
+/*MULTIUSE CLASSES*/
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+/*MULTIUSE CLASSES*/
